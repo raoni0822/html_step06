@@ -1,0 +1,60 @@
+* {
+    outline: 1px solid #2E8B57;
+}
+
+
+
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio .inner {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.portfolio .inner figure {
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.port_slide {
+    margin: 0 -15px;
+}
+
+
+
+
+
+
+
+.product {
+    padding: 100px 0;
+    background: #f9f9f9;
+}
+
+.product .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product .inner .left {
+    flex: 2;
+    overflow: hidden;
+}
+
+.product .inner .left figure {
+    padding: 0 15px;
+}
+
+.product_slide {
+    margin: 0 -15px;
+}
+
+
+.product .inner .right {
+    flex: 1;
+}

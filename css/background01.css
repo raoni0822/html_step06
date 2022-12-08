@@ -1,0 +1,62 @@
+* {
+    outline: 1px solid #2E8B57;
+}
+
+.sec {
+    height: 50vh;
+    margin: 100px;
+    padding: 100px;
+    border: 30px solid transparent;
+}
+
+.bg01 {
+    position: relative;
+    background-image: url(../img/mainvisual01.jpg);
+}
+
+.bg01 .position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+}
+
+.bg02 {
+    background-image: url(../img/logo01.png);
+}
+
+.bg03 {
+    background-image: url(../img/logo01.png);
+    background-repeat: repeat-y;
+}
+
+.bg04 {
+    background-image: url(../img/logo01.png);
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg05 {
+    background-image: url(../img/logo01.png);
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-position-x: center;
+    background-position-y: center;
+    /* 가로 세로 비율에 따라 바뀔 수 있다.*/
+    /* background-size: 100% auto; = contain */
+    /* background-size: auto 100% ; = cover */
+}
+
+.bg06 {
+    background: tomato url(../img/logo01.png) no-repeat center center/cover;
+    border: none;
+}
+
+.bg07 {
+    background: url(../img/mainvisual01.jpg) no-repeat fixed center center/cover;
+    /* background-attachment: fixed; */
+}
